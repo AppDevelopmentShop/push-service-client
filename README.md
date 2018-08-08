@@ -25,7 +25,7 @@ pushService.send(userToken, {
     title: 'push title',
     body: 'push text',
     payload: {
-        field: "all addditional info"
+        field: 'all addditional info'
     }
 })
 ``` 
