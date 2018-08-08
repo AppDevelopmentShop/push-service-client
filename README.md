@@ -9,7 +9,8 @@ After that you can use your pushService everywhere.
 #### Available commands:
 ``` pushService.register(userToken, firebaseToken) ```  
 ``` pushService.unregister(userToken, firebaseToken) ```  
-``` pushService.send(userToken, {
+``` 
+pushService.send(userToken, {
         title: 'push title',
         body: 'push text',
         payload: {
