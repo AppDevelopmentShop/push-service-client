@@ -16,7 +16,8 @@ After that you can use your pushService everywhere.
             field: "all addditional info"
         }
     
-    }) ```  
+    })
+``` 
 Or you can create multiple clients for each service:  
 
 ``` const client1 = pushService.createClient({ host: 'localhost', port: 8081 }) ```  
