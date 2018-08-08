@@ -1,9 +1,13 @@
 ## Install
 ``` npm i --save @appdevshop/push-service-client ```
 ## Usage
-``` import pushService from '@appdevshop/push-service-client' ```  
+``` 
+import pushService from '@appdevshop/push-service-client'
+```  
 Import package  
-``` pushService.initialize({ host: 'localhost', port: 1343 }) ```  
+```
+pushService.initialize({ host: 'localhost', port: 1343 }) 
+```  
 Initialize client with information about where push-service is running.  
 After that you can use your pushService everywhere.  
 #### Available commands:
