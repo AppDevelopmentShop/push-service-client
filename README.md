@@ -28,5 +28,9 @@ pushService.send(userToken, {
 ``` 
 Or you can create multiple clients for each service:  
 
-``` const client1 = pushService.createClient({ host: 'localhost', port: 8081 }) ```  
-``` const client2 = pushService.createClient({ host: 'localhost', port: 8082 }) ```  
+```
+const client1 = pushService.createClient({ host: 'localhost', port: 8081 })
+```  
+```
+const client2 = pushService.createClient({ host: 'localhost', port: 8082 })
+```  
