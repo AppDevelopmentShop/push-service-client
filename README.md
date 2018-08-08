@@ -33,5 +33,7 @@ const client1 = pushService.createClient({ host: 'localhost', port: 8081 })
 ```  
 ```
 const client2 = pushService.createClient({ host: 'localhost', port: 8082 })
-```  
+```   
+
+## Links
 [NPM](https://www.npmjs.com/package/@appdevshop/push-service-client)
