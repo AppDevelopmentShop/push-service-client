@@ -42,5 +42,5 @@ const client2 = pushService.createClient({ host: 'localhost', port: 8082 })
 ```   
 
 ## Links
-[NPM](https://www.npmjs.com/package/@appdevshop/push-service-client)
+[NPM](https://www.npmjs.com/package/@appdevshop/push-service-client)  
 [Push-service](https://github.com/AppDevelopmentShop/push-service)
