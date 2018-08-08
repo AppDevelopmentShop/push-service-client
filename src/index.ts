@@ -18,6 +18,9 @@ class Client {
     }
 
     public initialize(options: OptionsType) {
+        if (!options.host || !options.port) {
+            throw new Error('Push service initialization error: host or port fields not provided')
+        }
         if (!options.host.includes('http')) {
             options.host = `http://${options.host}`
         }
