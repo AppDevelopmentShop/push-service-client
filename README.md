@@ -1,26 +1,26 @@
 ## Install
 ``` npm i --save @appdevshop/push-service-client ```
 ## Usage
-``` 
+Import package 
+```javascript
 import pushService from '@appdevshop/push-service-client'
-```  
-Import package  
-```
-pushService.initialize({ host: 'localhost', port: 1343 }) 
-```  
+```   
 Initialize client with information about where push-service is running.  
 After that you can use your pushService everywhere.  
+```javascript
+pushService.initialize({ host: 'localhost', port: 1343 }) 
+```  
 #### Available commands:
 You can register firebase token and connect it to some user.  
-``` 
+```javascript  
 pushService.register(userToken, firebaseToken)
 ```  
 You can unregister firebase token from some user.  
-```  
+```javascript  
 pushService.unregister(userToken, firebaseToken)
 ```  
 You can send message to some user, using ``` userToken ``` that was use while registering.
-``` 
+```javascript  
 pushService.send(userToken, {
     title: 'push title',
     body: 'push text',
@@ -34,10 +34,8 @@ pushService.send(userToken, {
   
 Or you can create multiple clients for each service:  
 
-```
+```javascript  
 const client1 = pushService.createClient({ host: 'localhost', port: 8081 })
-```  
-```
 const client2 = pushService.createClient({ host: 'localhost', port: 8082 })
 ```   
 
